@@ -8,5 +8,5 @@ public class SkillDemonTest {
     public void basicallyMultiplication(){
         assertEquals(15, SkillDemon.basicallyMultiplication(1, 2));
     }
-    // Initially fail.
+    // It should pass.
 }

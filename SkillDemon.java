@@ -6,14 +6,14 @@ public class SkillDemon{
 
         for (int i = 0; i < 5; i++){
 
-            total = (num + num2);
+            total += (num + num2);
 
         }
 
         return total; 
     }
 
-    // There is a bug in this, causing our test to fail.
+    // Fixed Bug. Should now pass test.
 
 
 }
